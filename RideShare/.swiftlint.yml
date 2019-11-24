@@ -1,0 +1,16 @@
+disabled_rules:
+- trailing_whitespace
+- type_body_length
+- line_length
+- function_parameter_count
+- force_cast
+- multiple_closures_with_trailing_closure
+- cyclomatic_complexity
+- function_body_length
+- identifier_name
+- weak_delegate
+- file_length
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Carthage
+- Pods
