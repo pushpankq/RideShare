@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func requestRideAction(_ sender: RoundedShadowButton) {
-        
-        requestRideButtonOutlet.animateButton(shouldLoad: true, withMessage: nil)
+        sender.animateButton(shouldLoad: true, withMessage: nil)
     }
 }
