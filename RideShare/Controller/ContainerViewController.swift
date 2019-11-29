@@ -17,6 +17,7 @@ enum SlideOutState {
 enum ShowWhichVC {
     case homeViewController
 }
+
 var showVC: ShowWhichVC = .homeViewController
 
 class ContainerViewController: UIViewController {
@@ -42,7 +43,6 @@ class ContainerViewController: UIViewController {
         super.viewDidLoad()
         
         initCenter(screen: showVC)
-
     }
     
     override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
@@ -53,7 +53,6 @@ class ContainerViewController: UIViewController {
         return isHidden
     }
 }
-
 
 // MARK: Private Methods
 
@@ -105,10 +104,7 @@ extension ContainerViewController {
         whiteCoverView.backgroundColor = .white
         whiteCoverView.tag = 20
         centerController.view.addSubview(whiteCoverView)
-        
-        UIView.animate(withDuration: 0.2) {
-            whiteCoverView.alpha = 0.75
-        }
+        whiteCoverView.fadeTo(alphaValue: 0.75, withDuration: 0.2)
         
         tap = UITapGestureRecognizer(target: self, action: #selector(animateLeftPanel(shouldExpand:)))
         tap.numberOfTouchesRequired = 1
@@ -116,12 +112,7 @@ extension ContainerViewController {
     }
     
     private func shouldShowShadowForCenterViewController(_ status: Bool) {
-        if status {
-            centerController.view.layer.shadowOpacity = 0.6
-        } else {
-            centerController.view.layer.shadowOpacity = 0.6
-            
-            }
+        centerController.view.layer.shadowOpacity = status == true ? 0.6 : 0.0
     }
     
     private func hideWhiteCoverView() {
@@ -174,3 +165,4 @@ extension ContainerViewController: CenterVCDelegate {
         }
     }
 }
+

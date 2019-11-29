@@ -23,6 +23,7 @@
 		97972F582389BB1B00DBE771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97972F562389BB1B00DBE771 /* LaunchScreen.storyboard */; };
 		97BC55AE238A5DAD00683123 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 97BC55AD238A5DAD00683123 /* .swiftlint.yml */; };
 		97BC55B3238A760000683123 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC55B2238A760000683123 /* GradientView.swift */; };
+		97C914012391888C004AC004 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914002391888C004AC004 /* UIView+Extension.swift */; };
 		97FC0B752390CA9700A1772B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FC0B742390CA9700A1772B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		97972F592389BB1B00DBE771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97BC55AD238A5DAD00683123 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		97BC55B2238A760000683123 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		97C914002391888C004AC004 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		97FC0B742390CA9700A1772B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A18598E5D15A5A53D9B9A9D9 /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD814183B95B48F469DEF167 /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				97BC55AD238A5DAD00683123 /* .swiftlint.yml */,
+				97C913FF2391883F004AC004 /* Extensions */,
 				976988732390CA0D0071221F /* Core */,
 				9769886A2390C9E20071221F /* Protocols */,
 				97BC55B0238A756000683123 /* View */,
@@ -134,6 +137,14 @@
 				9741AA68238C41D7008D5318 /* RoundedShadowButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		97C913FF2391883F004AC004 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97C914002391888C004AC004 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DE7E2F2E1FFA97CF524A8D0B /* Frameworks */ = {
@@ -289,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9769886C2390C9E20071221F /* CenterVCDelegate.swift in Sources */,
+				97C914012391888C004AC004 /* UIView+Extension.swift in Sources */,
 				9741AA63238C3740008D5318 /* RoundImageView.swift in Sources */,
 				976988702390C9FA0071221F /* LeftSidePanelViewController.swift in Sources */,
 				9769886E2390C9F40071221F /* ContainerViewController.swift in Sources */,
