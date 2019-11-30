@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import RevealingSplashView
 
 class HomeViewController: UIViewController {
     
@@ -15,9 +16,13 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var requestRideButtonOutlet: RoundedShadowButton!
     var delegate: CenterVCDelegate?
     
+    let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "launchScreenIcon")!, iconInitialSize: CGSize(width: 80, height: 80), backgroundColor: .white)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.addSubview(revealingSplashView)
+        revealingSplashView.animationType = .twitter
+        revealingSplashView.startAnimation()
     }
 }
 

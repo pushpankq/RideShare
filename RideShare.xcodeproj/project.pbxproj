@@ -13,6 +13,7 @@
 		9741AA65238C3882008D5318 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA64238C3882008D5318 /* RoundedShadowView.swift */; };
 		9741AA67238C3D20008D5318 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA66238C3D20008D5318 /* CircleView.swift */; };
 		9741AA69238C41D7008D5318 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA68238C41D7008D5318 /* RoundedShadowButton.swift */; };
+		97487DC423925DF10070417A /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97487DC323925DF10070417A /* RoundedTextField.swift */; };
 		9769886C2390C9E20071221F /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769886B2390C9E20071221F /* CenterVCDelegate.swift */; };
 		9769886E2390C9F40071221F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769886D2390C9F40071221F /* ContainerViewController.swift */; };
 		976988702390C9FA0071221F /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769886F2390C9FA0071221F /* LeftSidePanelViewController.swift */; };
@@ -37,6 +38,7 @@
 		9741AA64238C3882008D5318 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		9741AA66238C3D20008D5318 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		9741AA68238C41D7008D5318 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		97487DC323925DF10070417A /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		9769886B2390C9E20071221F /* CenterVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		9769886D2390C9F40071221F /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		9769886F2390C9FA0071221F /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +91,6 @@
 		97972F3F2389BB1A00DBE771 = {
 			isa = PBXGroup;
 			children = (
-				973483822392585B00D1298F /* .gitignore */,
 				97972F4A2389BB1A00DBE771 /* RideShare */,
 				97972F492389BB1A00DBE771 /* Products */,
 				EEC72C292FE57A8BB36EDBD6 /* Pods */,
@@ -108,6 +109,7 @@
 		97972F4A2389BB1A00DBE771 /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				973483822392585B00D1298F /* .gitignore */,
 				97BC55AD238A5DAD00683123 /* .swiftlint.yml */,
 				97C913FF2391883F004AC004 /* Extensions */,
 				976988732390CA0D0071221F /* Core */,
@@ -144,6 +146,7 @@
 				9741AA64238C3882008D5318 /* RoundedShadowView.swift */,
 				9741AA66238C3D20008D5318 /* CircleView.swift */,
 				9741AA68238C41D7008D5318 /* RoundedShadowButton.swift */,
+				97487DC323925DF10070417A /* RoundedTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				9741AA67238C3D20008D5318 /* CircleView.swift in Sources */,
 				97972F4E2389BB1A00DBE771 /* SceneDelegate.swift in Sources */,
 				9741AA69238C41D7008D5318 /* RoundedShadowButton.swift in Sources */,
+				97487DC423925DF10070417A /* RoundedTextField.swift in Sources */,
 				976988722390CA000071221F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
