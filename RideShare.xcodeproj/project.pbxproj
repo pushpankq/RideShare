@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42D02E7FCAD63978D32D8793 /* Pods_RideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18598E5D15A5A53D9B9A9D9 /* Pods_RideShare.framework */; };
+		973483832392585B00D1298F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 973483822392585B00D1298F /* .gitignore */; };
 		9741AA63238C3740008D5318 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA62238C3740008D5318 /* RoundImageView.swift */; };
 		9741AA65238C3882008D5318 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA64238C3882008D5318 /* RoundedShadowView.swift */; };
 		9741AA67238C3D20008D5318 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA66238C3D20008D5318 /* CircleView.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		23AD6BD167C33492EF419775 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
+		973483822392585B00D1298F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9741AA62238C3740008D5318 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		9741AA64238C3882008D5318 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		9741AA66238C3D20008D5318 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		97972F3F2389BB1A00DBE771 = {
 			isa = PBXGroup;
 			children = (
+				973483822392585B00D1298F /* .gitignore */,
 				97972F4A2389BB1A00DBE771 /* RideShare */,
 				97972F492389BB1A00DBE771 /* Products */,
 				EEC72C292FE57A8BB36EDBD6 /* Pods */,
@@ -235,6 +238,7 @@
 				97972F582389BB1B00DBE771 /* LaunchScreen.storyboard in Resources */,
 				97972F552389BB1B00DBE771 /* Assets.xcassets in Resources */,
 				97FC0B752390CA9700A1772B /* Main.storyboard in Resources */,
+				973483832392585B00D1298F /* .gitignore in Resources */,
 				97C9140323918FE1004AC004 /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
