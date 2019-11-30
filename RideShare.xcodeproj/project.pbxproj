@@ -24,6 +24,8 @@
 		97BC55AE238A5DAD00683123 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 97BC55AD238A5DAD00683123 /* .swiftlint.yml */; };
 		97BC55B3238A760000683123 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC55B2238A760000683123 /* GradientView.swift */; };
 		97C914012391888C004AC004 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914002391888C004AC004 /* UIView+Extension.swift */; };
+		97C9140323918FE1004AC004 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C9140223918FE1004AC004 /* Authentication.storyboard */; };
+		97C91405239198F8004AC004 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C91404239198F8004AC004 /* LoginViewController.swift */; };
 		97FC0B752390CA9700A1772B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FC0B742390CA9700A1772B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		97BC55AD238A5DAD00683123 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		97BC55B2238A760000683123 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		97C914002391888C004AC004 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		97C9140223918FE1004AC004 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		97C91404239198F8004AC004 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		97FC0B742390CA9700A1772B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A18598E5D15A5A53D9B9A9D9 /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD814183B95B48F469DEF167 /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				97972F4D2389BB1A00DBE771 /* SceneDelegate.swift */,
 				97972F542389BB1B00DBE771 /* Assets.xcassets */,
 				97FC0B742390CA9700A1772B /* Main.storyboard */,
+				97C9140223918FE1004AC004 /* Authentication.storyboard */,
 				97972F562389BB1B00DBE771 /* LaunchScreen.storyboard */,
 				97972F592389BB1B00DBE771 /* Info.plist */,
 			);
@@ -123,6 +128,7 @@
 				9769886D2390C9F40071221F /* ContainerViewController.swift */,
 				9769886F2390C9FA0071221F /* LeftSidePanelViewController.swift */,
 				976988712390CA000071221F /* HomeViewController.swift */,
+				97C91404239198F8004AC004 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 				97972F582389BB1B00DBE771 /* LaunchScreen.storyboard in Resources */,
 				97972F552389BB1B00DBE771 /* Assets.xcassets in Resources */,
 				97FC0B752390CA9700A1772B /* Main.storyboard in Resources */,
+				97C9140323918FE1004AC004 /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C91405239198F8004AC004 /* LoginViewController.swift in Sources */,
 				9769886C2390C9E20071221F /* CenterVCDelegate.swift in Sources */,
 				97C914012391888C004AC004 /* UIView+Extension.swift in Sources */,
 				9741AA63238C3740008D5318 /* RoundImageView.swift in Sources */,

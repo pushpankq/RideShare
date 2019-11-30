@@ -2,6 +2,7 @@ import UIKit
 
 enum AppStoryboard: String {
     case Main
+    case Authentication
 }
 
 extension AppStoryboard {
