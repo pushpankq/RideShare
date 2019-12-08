@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import RevealingSplashView
+import Crashlytics
 
 class HomeViewController: UIViewController {
     
@@ -23,7 +24,9 @@ class HomeViewController: UIViewController {
         view.addSubview(revealingSplashView)
         revealingSplashView.animationType = .twitter
         revealingSplashView.startAnimation()
+                
     }
+    
 }
 
 // MARK: IBActions

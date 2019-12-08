@@ -11,6 +11,7 @@ pod 'Firebase/Auth'
 pod 'Firebase/Database'
 pod 'RevealingSplashView'
 pod 'SwiftLint'
+pod 'Crashlytics'
 
 
 
