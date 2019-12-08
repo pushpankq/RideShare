@@ -197,9 +197,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97972F5C2389BB1B00DBE771 /* Build configuration list for PBXNativeTarget "RideShare" */;
 			buildPhases = (
-				97A899942392901B004AB74A /* Crashlytics */,
-				97BC55AC238A59A700683123 /* Swift Lint */,
 				278EDF995AC81B1F4E50B18B /* [CP] Check Pods Manifest.lock */,
+				97BC55AC238A59A700683123 /* Swift Lint */,
 				97972F442389BB1A00DBE771 /* Sources */,
 				97972F452389BB1A00DBE771 /* Frameworks */,
 				97972F462389BB1A00DBE771 /* Resources */,
@@ -303,24 +302,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RideShare/Pods-RideShare-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		97A899942392901B004AB74A /* Crashlytics */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Crashlytics;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
 		};
 		97BC55AC238A59A700683123 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -499,7 +480,9 @@
 			baseConfigurationReference = 23AD6BD167C33492EF419775 /* Pods-RideShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4MFZ26949;
 				INFOPLIST_FILE = RideShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,6 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pushpank.RideShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -517,7 +501,9 @@
 			baseConfigurationReference = FD814183B95B48F469DEF167 /* Pods-RideShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RideShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -525,6 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pushpank.RideShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -89,7 +89,6 @@ PODS:
 
 DEPENDENCIES:
   - Crashlytics
-  - Fabric
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -141,6 +140,6 @@ SPEC CHECKSUMS:
   RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
   SwiftLint: fc9859e4e1752340664851f667bb1898b9c90114
 
-PODFILE CHECKSUM: 067f0a7441d50353a51f6d115ac953dae7cd32c9
+PODFILE CHECKSUM: 778b365a1a2ed33072c134c75fc3816b7617742b
 
 COCOAPODS: 1.8.4
