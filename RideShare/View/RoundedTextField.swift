@@ -18,14 +18,25 @@ class RoundedCornerTextField: UITextField {
 
     func setUpView() {
         self.layer.cornerRadius = self.frame.height/2
+        self.clipsToBounds = true
     }
     
-//    override func textRect(forBounds bounds: CGRect) -> CGRect {
-//        return CGRect(x: 0 + textRectOffset, y: 0 + (textRectOffset / 2), width: self.frame.width - textRectOffset, height: self.frame.height + textRectOffset)
-//    }
-//
-//    override func editingRect(forBounds bounds: CGRect) -> CGRect {
-//        return CGRect(x: 0 + textRectOffset, y: 0 + (textRectOffset / 2), width: self.frame.width - textRectOffset, height: self.frame.height + textRectOffset)
-//    }
+    override func textRect(forBounds bounds: CGRect) -> CGRect {
+
+        return bounds.inset(by: UIEdgeInsets(top: 0, left: textRectOffset, bottom: 0, right: textRectOffset))
+
+    }
+    
+    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+
+        return bounds.inset(by: UIEdgeInsets(top: 0, left: textRectOffset, bottom: 0, right: textRectOffset))
+
+     }
+
+     override func editingRect(forBounds bounds: CGRect) -> CGRect {
+
+        return bounds.inset(by: UIEdgeInsets(top: 0, left: textRectOffset, bottom: 0, right: textRectOffset))
+
+     }
 
 }
