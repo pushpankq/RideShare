@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 import RevealingSplashView
-import Crashlytics
+//import Crashlytics
 
 class HomeViewController: UIViewController {
     

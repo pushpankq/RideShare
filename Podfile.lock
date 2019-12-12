@@ -1,7 +1,4 @@
 PODS:
-  - Crashlytics (3.14.0):
-    - Fabric (~> 1.10.2)
-  - Fabric (1.10.2)
   - Firebase/Auth (6.11.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.3.1)
@@ -88,7 +85,6 @@ PODS:
   - SwiftLint (0.36.0)
 
 DEPENDENCIES:
-  - Crashlytics
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -97,8 +93,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Crashlytics
-    - Fabric
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -119,8 +113,6 @@ SPEC REPOS:
     - SwiftLint
 
 SPEC CHECKSUMS:
-  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   Firebase: bc9cfc7a96c73268656d5aaab453ff1b4b530e0e
   FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
   FirebaseAuth: b401a012cc33b04df3b52bb308b04e8766f2693e
@@ -140,6 +132,6 @@ SPEC CHECKSUMS:
   RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
   SwiftLint: fc9859e4e1752340664851f667bb1898b9c90114
 
-PODFILE CHECKSUM: 778b365a1a2ed33072c134c75fc3816b7617742b
+PODFILE CHECKSUM: 7c6016bf5f575790b372a6a1ab0b81bbeb3d46a4
 
 COCOAPODS: 1.8.4

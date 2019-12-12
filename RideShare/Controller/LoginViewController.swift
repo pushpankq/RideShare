@@ -2,8 +2,8 @@
 //  LoginViewController.swift
 //  RideShare
 //
-//  Created by Puspank Kumar on 29/11/19.
-//  Copyright © 2019 Puspank Kumar. All rights reserved.
+//  Created by Pushpank Kumar on 29/11/19.
+//  Copyright © 2019 Pushpank Kumar. All rights reserved.
 //
 
 import UIKit
@@ -61,7 +61,7 @@ extension LoginViewController {
                                 let userData = ["provider": user.user.providerID] as [String: Any]
                                 DataService.shared.createFirebaseDBUsers(uid: user.user.uid, userData: userData, isDriver: false)
                             } else {
-                                let userData = ["provider": user.user.providerID, "userIsDriver": true, "isPickUPModeEnable": false, "driverIsOnTrip": false] as [String: Any]
+                                let userData = ["provider": user.user.providerID, "userIsDriver": true, "isPickupModeEnabled": false, "driverIsOnTrip": false] as [String: Any]
                                 DataService.shared.createFirebaseDBUsers(uid: user.user.uid, userData: userData, isDriver: true)
                             }
                         }
@@ -115,7 +115,7 @@ extension LoginViewController {
                                         let userData = ["provider": user.user.providerID] as [String: Any]
                                         DataService.shared.createFirebaseDBUsers(uid: user.user.uid, userData: userData, isDriver: false)
                                     } else {
-                                        let userData = ["provider": user.user.providerID, "userIsDriver": true, "isPickUPModeEnable": false, "driverIsOnTrip": false] as [String: Any]
+                                        let userData = ["provider": user.user.providerID, "userIsDriver": true, "isPickupModeEnabled": false, "driverIsOnTrip": false] as [String: Any]
                                         DataService.shared.createFirebaseDBUsers(uid: user.user.uid, userData: userData, isDriver: true)
                                     }
                                 }
