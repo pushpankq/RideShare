@@ -15,6 +15,9 @@
 		9741AA65238C3882008D5318 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA64238C3882008D5318 /* RoundedShadowView.swift */; };
 		9741AA67238C3D20008D5318 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA66238C3D20008D5318 /* CircleView.swift */; };
 		9741AA69238C41D7008D5318 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741AA68238C41D7008D5318 /* RoundedShadowButton.swift */; };
+		974347F123A1E0FA00DCD552 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974347F023A1E0FA00DCD552 /* String+Regex.swift */; };
+		974347F323A1E10E00DCD552 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974347F223A1E10E00DCD552 /* String+Validation.swift */; };
+		974347F523A1E13B00DCD552 /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974347F423A1E13B00DCD552 /* SwifterSwift.swift */; };
 		97487DC423925DF10070417A /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97487DC323925DF10070417A /* RoundedTextField.swift */; };
 		9769886C2390C9E20071221F /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769886B2390C9E20071221F /* CenterVCDelegate.swift */; };
 		9769886E2390C9F40071221F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769886D2390C9F40071221F /* ContainerViewController.swift */; };
@@ -42,7 +45,11 @@
 		9741AA64238C3882008D5318 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		9741AA66238C3D20008D5318 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		9741AA68238C41D7008D5318 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		974347F023A1E0FA00DCD552 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		974347F223A1E10E00DCD552 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		974347F423A1E13B00DCD552 /* SwifterSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSwift.swift; sourceTree = "<group>"; };
 		97487DC323925DF10070417A /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		974AB9EF23A096A8006FA81C /* RideShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RideShare.entitlements; sourceTree = "<group>"; };
 		9769886B2390C9E20071221F /* CenterVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		9769886D2390C9F40071221F /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		9769886F2390C9FA0071221F /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +61,7 @@
 		97972F542389BB1B00DBE771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97972F572389BB1B00DBE771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97972F592389BB1B00DBE771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97BC55AD238A5DAD00683123 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		97BC55AD238A5DAD00683123 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = RideShare/.swiftlint.yml; sourceTree = "<group>"; };
 		97BC55B2238A760000683123 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		97C914002391888C004AC004 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		97C9140223918FE1004AC004 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
@@ -96,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				976988742390CA0D0071221F /* AppStoryboard.swift */,
+				974347F023A1E0FA00DCD552 /* String+Regex.swift */,
+				974347F223A1E10E00DCD552 /* String+Validation.swift */,
+				974347F423A1E13B00DCD552 /* SwifterSwift.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -105,6 +115,7 @@
 			children = (
 				97972F4A2389BB1A00DBE771 /* RideShare */,
 				97972F492389BB1A00DBE771 /* Products */,
+				97BC55AD238A5DAD00683123 /* .swiftlint.yml */,
 				EEC72C292FE57A8BB36EDBD6 /* Pods */,
 				DE7E2F2E1FFA97CF524A8D0B /* Frameworks */,
 			);
@@ -121,9 +132,9 @@
 		97972F4A2389BB1A00DBE771 /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				974AB9EF23A096A8006FA81C /* RideShare.entitlements */,
 				973483822392585B00D1298F /* .gitignore */,
 				972EAB2E23928BBD00474824 /* GoogleService-Info.plist */,
-				97BC55AD238A5DAD00683123 /* .swiftlint.yml */,
 				9700DA2D2393E5D300E2C39C /* Services */,
 				97C913FF2391883F004AC004 /* Extensions */,
 				976988732390CA0D0071221F /* Core */,
@@ -319,7 +330,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -330,15 +342,18 @@
 			files = (
 				97C91405239198F8004AC004 /* LoginViewController.swift in Sources */,
 				9769886C2390C9E20071221F /* CenterVCDelegate.swift in Sources */,
+				974347F123A1E0FA00DCD552 /* String+Regex.swift in Sources */,
 				97C914012391888C004AC004 /* UIView+Extension.swift in Sources */,
 				9741AA63238C3740008D5318 /* RoundImageView.swift in Sources */,
 				976988702390C9FA0071221F /* LeftSidePanelViewController.swift in Sources */,
+				974347F523A1E13B00DCD552 /* SwifterSwift.swift in Sources */,
 				9769886E2390C9F40071221F /* ContainerViewController.swift in Sources */,
 				976988752390CA0E0071221F /* AppStoryboard.swift in Sources */,
 				9700DA2F2393E5F800E2C39C /* DataService.swift in Sources */,
 				9741AA65238C3882008D5318 /* RoundedShadowView.swift in Sources */,
 				97972F4C2389BB1A00DBE771 /* AppDelegate.swift in Sources */,
 				97BC55B3238A760000683123 /* GradientView.swift in Sources */,
+				974347F323A1E10E00DCD552 /* String+Validation.swift in Sources */,
 				9741AA67238C3D20008D5318 /* CircleView.swift in Sources */,
 				97972F4E2389BB1A00DBE771 /* SceneDelegate.swift in Sources */,
 				9741AA69238C41D7008D5318 /* RoundedShadowButton.swift in Sources */,
@@ -480,8 +495,10 @@
 			baseConfigurationReference = 23AD6BD167C33492EF419775 /* Pods-RideShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RideShare/RideShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = J4MFZ26949;
 				INFOPLIST_FILE = RideShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,6 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pushpank.RideShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,8 +519,10 @@
 			baseConfigurationReference = FD814183B95B48F469DEF167 /* Pods-RideShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RideShare/RideShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RideShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pushpank.RideShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -2,13 +2,12 @@
 //  AppDelegate.swift
 //  RideShare
 //
-//  Created by Puspank Kumar on 24/11/19.
-//  Copyright © 2019 Puspank Kumar. All rights reserved.
+//  Created by Pushpank Kumar on 24/11/19.
+//  Copyright © 2019 Pushpank Kumar. All rights reserved.
 //
 
 import UIKit
 import Firebase
-import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

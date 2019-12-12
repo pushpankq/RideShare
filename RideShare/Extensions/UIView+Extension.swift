@@ -2,8 +2,8 @@
 //  UIView+Extension.swift
 //  RideShare
 //
-//  Created by Puspank Kumar on 29/11/19.
-//  Copyright © 2019 Puspank Kumar. All rights reserved.
+//  Created by Pushpank Kumar on 29/11/19.
+//  Copyright © 2019 Pushpank Kumar. All rights reserved.
 //
 
 import UIKit
@@ -11,18 +11,14 @@ import UIKit
 extension UIView {
     
     func fadeTo(alphaValue: CGFloat, withDuration duration: TimeInterval) {
-        
         UIView.animate(withDuration: duration) {
             self.alpha = alphaValue
         }
-        
     }
     
     func bindToKeyboard() {
-        
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
-
     }
     
     @objc func adjustForKeyboard(notification: Notification) {

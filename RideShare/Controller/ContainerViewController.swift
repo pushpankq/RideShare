@@ -55,7 +55,6 @@ class ContainerViewController: UIViewController {
 }
 
 // MARK: Private Methods
-
 extension ContainerViewController {
     
     private func initCenter(screen: ShowWhichVC) {

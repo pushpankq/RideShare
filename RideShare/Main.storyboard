@@ -29,14 +29,14 @@
                                 <rect key="frame" x="32" y="30" width="311" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbi-PX-Tb1">
-                                        <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                         <state key="normal" image="menuSliderBtn"/>
                                         <connections>
                                             <action selector="menuButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lJe-zF-kw3"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cjg-Df-1NN">
-                                        <rect key="frame" x="96" y="0.0" width="149" height="30"/>
+                                        <rect key="frame" x="81" y="0.0" width="149" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RIDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tck-83-Uvk">
                                                 <rect key="frame" x="0.0" y="0.0" width="61.5" height="30"/>
@@ -309,6 +309,9 @@
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cEk-0I-TKb">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="switchToggled:" destination="AJT-HC-hsO" eventType="valueChanged" id="Fqo-Bo-Orv"/>
+                                        </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PICKUP MODE ENABLED" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57L-tB-kut">
                                         <rect key="frame" x="0.0" y="31" width="166.5" height="19.5"/>
@@ -341,6 +344,7 @@
                     <connections>
                         <outlet property="accountTypeLabel" destination="grn-uq-D2p" id="vgD-sR-pWe"/>
                         <outlet property="emaillabel" destination="fpv-Fc-Zl0" id="6bm-nd-aly"/>
+                        <outlet property="loginButton" destination="ldM-7I-F8k" id="v52-Nm-F6n"/>
                         <outlet property="pickUpModeSwitch" destination="cEk-0I-TKb" id="yN7-c8-af8"/>
                         <outlet property="pickUpModelLabel" destination="57L-tB-kut" id="gjO-Ro-oi5"/>
                         <outlet property="userImageView" destination="eJJ-ws-VQP" id="HrN-bg-9BG"/>

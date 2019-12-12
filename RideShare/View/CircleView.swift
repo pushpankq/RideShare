@@ -2,8 +2,8 @@
 //  CircleView.swift
 //  RideShare
 //
-//  Created by Puspank Kumar on 25/11/19.
-//  Copyright © 2019 Puspank Kumar. All rights reserved.
+//  Created by Pushpank Kumar on 25/11/19.
+//  Copyright © 2019 Pushpank Kumar. All rights reserved.
 //
 
 import UIKit
